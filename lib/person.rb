@@ -42,7 +42,7 @@ class Person
     end
 
     def happy?
-        self.happiness > 7
+        @happiness > 7
     end
 
     def get_paid(amount)
